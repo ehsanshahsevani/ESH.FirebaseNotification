@@ -11,7 +11,7 @@ namespace ESH.FirebaseNotification.Services;
 /// </summary>
 public class FirebaseNotificationService : INotificationService
 {
-    /// <summary>7
+    /// <summary>
     /// مقدار پیش‌فرض برای سرویس FirebaseNotificationService.
     /// </summary>
     public FirebaseNotificationService(string firebaseConfigPath)
