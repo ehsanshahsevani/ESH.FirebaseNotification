@@ -33,7 +33,7 @@ public class Startup
         string firebaseConfigPath = "configs/firebase-config.json";
         
         // افزودن سرویس نوتیفیکیشن
-        services.AddNotificationLibrary(firebaseConfigPath);
+        services.AddEshFirebaseNotification(firebaseConfigPath);
     }
 }
 ```
@@ -90,7 +90,7 @@ namespace ESH.FirebaseNotification.Extensions
 {
     public static class ServiceCollectionExtensions
     {
-        public static IServiceCollection AddNotificationLibrary(
+        public static IServiceCollection AddEshFirebaseNotification(
             this IServiceCollection services, string firebaseConfigPath)
         {
             services.AddSingleton<INotificationService>(provider =>
