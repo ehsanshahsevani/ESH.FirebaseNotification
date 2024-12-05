@@ -4,6 +4,24 @@
         <TargetFramework>net9.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Title>Firebase Cloud Messaging (FCM)</Title>
+        <Description>ESH.FirebaseNotification is a library for sending push notifications using Firebase Cloud Messaging (FCM). It allows easy integration with .NET projects for sending notifications to mobile devices via Firebase. This package includes functionality for sending notifications to individual devices using device tokens or topics, with full support for Firebase Admin SDK and customizable notification messages.</Description>
+        <Copyright>Copyright © 2024 Ehsan Shahsevani. All rights reserved. Licensed under the MIT License. </Copyright>
+        <PackageProjectUrl>https://github.com/ehsanshahsevani/ESH.FirebaseNotification</PackageProjectUrl>
+        <PackageLicenseUrl>https://github.com/ehsanshahsevani/ESH.FirebaseNotification</PackageLicenseUrl>
+        <RepositoryUrl>https://github.com/ehsanshahsevani/ESH.FirebaseNotification</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageTags>Firebase, FCM, push notifications, .NET, Firebase Cloud Messaging, notification service, notifications, dependency injection, mobile notifications, .NET library, .NET Core, Firebase SDK, notification delivery </PackageTags>
+        <PackageReleaseNotes>### v1.0.0 - Initial Release
+- First stable release of the ESH.FirebaseNotification library.
+- Integrated Firebase Cloud Messaging (FCM) for sending push notifications.
+- Supports sending notifications to individual devices via device tokens.
+- Added dependency injection support for seamless integration into .NET projects.
+- Provides customizable notification content (title, body, and device token).
+- Simple configuration with Firebase credentials file for easy setup.
+
+This initial version provides all the necessary tools to send push notifications in a .NET application using Firebase.</PackageReleaseNotes>
     </PropertyGroup>
 
     <ItemGroup>
