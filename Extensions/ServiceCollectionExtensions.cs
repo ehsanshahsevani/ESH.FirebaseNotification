@@ -15,7 +15,7 @@ public static class ServiceCollectionExtensions
     /// <param name="services">کلکسیون سرویس‌ها.</param>
     /// <param name="firebaseConfigPath">مسیر فایل تنظیمات Firebase.</param>
     /// <returns>همان کلکسیون سرویس‌ها برای chain calling.</returns>
-    public static IServiceCollection AddNotificationLibrary(
+    public static IServiceCollection AddEshFirebaseNotification(
         this IServiceCollection services, string firebaseConfigPath)
     {
         services.AddSingleton<INotificationService>(provider =>

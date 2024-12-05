@@ -1,7 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>net9.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
@@ -22,6 +21,8 @@
 - Simple configuration with Firebase credentials file for easy setup.
 
 This initial version provides all the necessary tools to send push notifications in a .NET application using Firebase.</PackageReleaseNotes>
+        <TargetFrameworks>net8.0;net9.0;net6.0</TargetFrameworks>
+        <Version>1.0.2</Version>
     </PropertyGroup>
 
     <ItemGroup>
